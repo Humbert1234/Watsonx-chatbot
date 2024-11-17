@@ -134,7 +134,7 @@ const ChatInterface: React.FC = () => {
     <div className="flex h-screen bg-gray-900">
       {/* Sidebar */}
       <div
-        className={`fixed inset-y-0 ${
+        className={`inset-y-0 ${
           isSidebarOpen ? "left-0 w-full sm:w-64" : "-left-full"
         } bg-gray-800 transition-all duration-300 overflow-hidden`}
       >
@@ -194,7 +194,7 @@ const ChatInterface: React.FC = () => {
           </button>
 
           <div className="flex-col-reverse">
-            <div className="p-4 bg-blue-600 text-white rounded-t-lg">
+            <div className="p-4 bg-blue-600 text-white w-full rounded-t-lg">
               <h1 className="text-xl font-bold">Watsonx Assistant</h1>
             </div>
             <p className="ml-4 text-xl text-white font-semibold sm:font-semibold">
